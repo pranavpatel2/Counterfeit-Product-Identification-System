@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "841251853609",
+    "project_id": "fakeproduct-fbccb",
+    "storage_bucket": "fakeproduct-fbccb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841251853609:android:3d2a602f6f24ed0428d338",
+        "android_client_info": {
+          "package_name": "com.example.Fake_product_detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841251853609-1ckk2muijvpmkb1voi7rlmhhg3lhoaa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzJfvNSu__GRdwTQojM5n784fmviZIFDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841251853609-1ckk2muijvpmkb1voi7rlmhhg3lhoaa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

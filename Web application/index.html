@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <title>Counterfeit-Product-Identification-System</title>
+  <head>
+    <link rel="shortcut icon" href="#">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="qrcode.js" defer></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="qrcode.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+    
+  </head>
+  <body>
+   <div id="mainPage">
+    <div class="header">
+      <div class="logo">
+        <h1>Counterfeit Product Identification</h1>
+      </div>
+      <div class="menu">
+        <a class="login" id="h1" onclick="loginclick()">Log in</a>
+        <a class="logout" id="h2" onclick="logoutclick()">Log out</a>
+      </div>
+    </div>
+     <p id="st">no</p>
+
+      <div class="container">
+        <div class="text">
+           <a href="#" onclick="openpage()" class="btn"><span class="fa fa-qrcode"></span>GENERATE</a>
+      </div>
+     </div>
+
+     <div id="qrcode"></div>
+
+     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase.js"></script>
+    <script src="script.js"></script>
+  </div>
+    <div id="login" style="position: absolute; top: 100px; left: 35%;color: black;display: none;">
+      <form>  
+        <div class="logincontainer">   
+          <h2>User Login</h2>
+            <label style="font-size: large;">Email : </label>   
+            <input type="text" id="email" placeholder="Enter email" name="email" required>  
+
+            <label style="font-size: large;">Password : </label>   
+            <input type="password" id="password" placeholder="Enter Password" name="password" required>  
+
+            <button type="button" onclick="userlogin()"style="font-size: large;">Login</button>   
+
+            <button type="button" class="cancelbtn" onclick="cancelclick()"style="font-size: large;"> Cancel</button>   
+        </div>   
+    </form>        
+    </div>
+
+  </body>
+  <script>
+    document.cookie="no";
+  </script>
+</html>

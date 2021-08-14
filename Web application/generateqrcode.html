@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <title>Simple Sign up from</title>
+  <head>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+     <link rel="stylesheet" href="stylesheet2.css">
+    <script src="qrcode.js" defer></script>
+    <script type="text/javascript" src="qrcode.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+ </head>
+
+
+<body>
+<div class"container">
+     <div class="form" >
+      
+        <h1>Enter product details</h1>
+          <input id="brand" type="text" placeholder="Enter brand" required><br>
+          <input id="model" type="text" placeholder="Enter model"  required><br>
+          <input id="mname" type="text" placeholder="Enter manufactuerName"  required><br>
+          <input id="address" type="text" placeholder="Enter address"  required><br>
+          <textarea id="dis" type="textarea" placeholder="Enter discription" required></textarea><br>
+          <button id="send" class="submit" onclick="qrcode()" type="submit"><strong>GENERATE</strong></button>
+        
+    </div>
+
+    <div class="qrcode" id="qrcode">
+    <h1>QR code</h1>
+    </div>
+</div>
+
+</body>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase.js"></script>
+    <script src="script.js"></script>
+</html>

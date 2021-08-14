@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-image: url(img2.jpg);
+    background-size: cover;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.9);
+    position:fixed;
+    top:0;
+    opacity: 1;
+  }
+
+  .container {
+    color: white;
+    text-align: center;
+
+  }
+
+  .logo {
+    width: 800px;
+    margin-left: 30px;
+    color: white;
+  }
+
+  .logo h1{
+    font-size: 18px;
+    float: left;
+  }
+
+  .menu{
+    float: right;
+    background-color: rgba(41, 206, 41, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .menu:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .menu a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+
+  .btn {
+    margin-top: 300px;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+    background-color: #e0a912;
+    margin-right: 10px;
+    font-size: 50px;
+    size: 30px;
+    box-shadow: 5px 10px #888888;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .fa {
+    margin-right: 10px;
+  }
+  
+.islogin{
+  display: none;
+}
+
+
+form {   
+  border: 3px solid #f1f1f1;  
+  width: 50%; 
+}   
+input[type=text], input[type=password] {   
+  width: 100%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;   
+  border: 2px solid green;   
+  box-sizing: border-box;   
+}  
+button:hover {   
+  opacity: 0.7;   
+}   
+.cancelbtn {   
+  width: auto;   
+  padding: 10px 18px;  
+  margin: 10px 5px;  
+}   
+  
+
+.logincontainer {   
+  padding: 25px;   
+  background-color: lightblue;  
+}   
+
+Body {  
+font-family: Calibri, Helvetica, sans-serif;  
+background-color: pink;  
+}  
+button {   
+     background-color: #4CAF50;   
+     width: 100%;  
+      color: rgb(14, 13, 13);   
+      padding: 15px;   
+      margin: 10px 0px;   
+      border: none;   
+      cursor: pointer;   
+     }   
